@@ -1,0 +1,40 @@
+.call{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+video{
+  width: 50%;
+  height: auto;
+}
+
+.chat{ 
+  border: 1px solid #aeaeae;
+  border-radius: 8px 8px 0 0;
+}
+.chat ul.chats{
+  overflow: auto;
+  position: relative;
+  height: 300px;
+  margin: 0;
+  padding: 1.5rem 0;
+}
+.chat form input{
+  font-size: 1.2em;
+  margin: 0;
+  border: none;
+  height: 45px;
+}
+.chat form input[type="text"]{
+  width: 75%;
+  padding-left: 10px;
+  background-color: #F6F6F6;
+}
+.chat form input[type="text"]:focus{
+  outline: none;
+}
+.chat form input[type="submit"]{
+  width: 25%;
+  border-radius: 0;
+}

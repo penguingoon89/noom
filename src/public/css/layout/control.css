@@ -1,0 +1,22 @@
+.control{
+  display: flex;
+  justify-content: space-between;
+}
+.control button,
+.control select{
+  width: 30%;
+  height: 40px;
+  padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .control{
+    flex-wrap: wrap;
+  }
+  .control button{
+    width: 50%;
+  }
+  .control select{
+    width: 100%;
+  }
+}

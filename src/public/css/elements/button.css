@@ -1,0 +1,8 @@
+button, input[type="submit"]{
+  border: 1px solid #aeaeae;
+  border-radius: 8px;
+  background-color: #3b82f6;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+}

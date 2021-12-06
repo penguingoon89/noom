@@ -1,0 +1,48 @@
+header{
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+header h1{
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.welcome-form{
+  margin: 2rem 0;
+  text-align: center;
+}
+.welcome-form input,
+.welcome-form button{
+  height: 50px;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+.welcome-form input{
+  width: 250px;
+  border: 1px solid #aeaeae;
+  border-radius: 8px 0 0 8px;
+}
+.welcome-form input:focus{ outline: none; }
+.welcome-form button{
+  width: 120px;
+  border-radius: 0 8px 8px 0;
+}
+
+@media screen and (max-width: 369px) {
+  .welcome-form{
+    min-width: 234px;
+  }
+  .welcome-form input,
+  .welcome-form button{
+    height: 40px;
+    padding: 5px;
+    font-size: 0.8rem;
+  }
+  .welcome-form input{
+    width: 67.56756%;
+  }
+  .welcome-form button{
+    width: 32.43244%;
+  }
+}
