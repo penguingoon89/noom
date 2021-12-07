@@ -23,15 +23,15 @@ html(lang="en")
     main 
       div#welcome
         form.welcome-form
-          input.welcome-form__input(placeholder="Room name", required, type="text")
-          button.welcome-form__button Enter room
+          input(placeholder="Room name", required, type="text")
+          button Enter room
       div#call.call
-        div#myStream.my-stream
+        div#myStream
           div.control
             button#mute Mute
             button#camera Turn Camera Off
             select#cameras
-          div.media
+          div
             video#myFace(autoplay, playsinline, width="400", height="400")
             video#peerFace(autoplay, playsinline, width="400", height="400")
         div.chat 
