@@ -15,7 +15,6 @@ video{
 }
 .chat ul.chats{
   overflow: auto;
-  position: relative;
   height: 300px;
   margin: 0;
   padding: 1.5rem 0;
